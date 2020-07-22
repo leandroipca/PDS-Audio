@@ -168,7 +168,7 @@ def rec_audio():
         if (type(comando) == str) and comando != " ":
             window.Comando.setText(comando)
 
-        graf = cv2.imread("out.png")
+        graf = cv2.imread("saida.png")
         window.graph1.setPixmap(img3pixmap(graf))
 
         time.sleep(0.2)
