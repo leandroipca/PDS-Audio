@@ -13,7 +13,7 @@ from sklearn import metrics
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sn
-from Previsao.previsao_som import AudioHandler
+from previsao_som import AudioHandler
 import time
 from PyQt5.QtGui import QPixmap, QImage
 
@@ -202,7 +202,7 @@ def start_clicked():
 
 # Função do botão parar audio
 def stop_clicked():
-    window.close()
+    #window.close()
     ah.stop()
     sys.exit(0)
 
